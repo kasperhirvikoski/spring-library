@@ -26,6 +26,14 @@
 
     <dependencies>
 
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- Simple Logging Facade -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -77,6 +85,14 @@
                 </exclusion>
 
             </exclusions>
+        </dependency>
+
+        <!-- Spring Test -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
