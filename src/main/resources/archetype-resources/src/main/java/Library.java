@@ -12,6 +12,7 @@ public class Library {
     private static ApplicationContext context = null;
 
     public Library() {
+
         init();
     }
 
@@ -24,6 +25,7 @@ public class Library {
     }
 
     public String getHello() {
+
         return "Hello World!";
     }
 }
