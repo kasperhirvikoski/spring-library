@@ -17,3 +17,15 @@ Create projects from the archetype with the following command:
                            -DgroupId=com.yourcompany 
                            -DartifactId=ProjectName
                            -Dpackage=com.yourcompany.projectname
+
+## Developing a project
+
+After creating a project from the archetype you can do the following tasks.
+
+### Run tests
+
+Run tests with `mvn test`.
+
+### Build
+
+Create a package with `mvn package`.
