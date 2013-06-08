@@ -24,7 +24,7 @@ After creating a project from the archetype you can do the following tasks.
 
 ### Run tests
 
-Run tests with `mvn test`.
+Run tests with `mvn test`. Measure code coverage with `mvn cobertura:cobertura`.
 
 ### Build
 
