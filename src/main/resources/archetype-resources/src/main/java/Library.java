@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Library {
 
-    private static ApplicationContext context = null;
+    private static ApplicationContext context;
 
     public Library() {
 
