@@ -14,7 +14,7 @@ Create projects from the archetype with the following command:
                            -DarchetypeArtifactId=spring-library
                            -DarchetypeVersion=1.0.6
                            -DarchetypeRepository=local
-                           -DgroupId=com.yourcompany 
+                           -DgroupId=com.yourcompany
                            -DartifactId=ProjectName
                            -Dpackage=com.yourcompany.projectname
 
