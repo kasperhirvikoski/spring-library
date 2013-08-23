@@ -138,11 +138,18 @@
             </plugin>
 
             <!-- Cobertura -->
-            <!-- TODO: Upgrade to 2.6 to support Java 7 -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.5.2</version>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>cobertura</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
         </plugins>
