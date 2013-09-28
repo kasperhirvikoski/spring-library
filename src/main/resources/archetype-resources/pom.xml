@@ -57,13 +57,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- CGLIB -->
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.0</version>
-        </dependency>
-
         <!-- Spring Context -->
         <dependency>
             <groupId>org.springframework</groupId>
