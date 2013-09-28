@@ -7,24 +7,13 @@ import ${package}.configuration.SpringContextConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Library {
+public final class Library {
 
-    private static ApplicationContext context;
+    private static ApplicationContext context = new AnnotationConfigApplicationContext(SpringContextConfiguration.class);
 
-    public Library() {
+    private Library() {}
 
-        init();
-    }
-
-    private void init() {
-
-        // Configure Spring Context
-        if (context == null) {
-            context = new AnnotationConfigApplicationContext(SpringContextConfiguration.class);
-        }
-    }
-
-    public String getHello() {
+    public static String getHello() {
 
         return "Hello World!";
     }
