@@ -4,25 +4,24 @@ Maven archetype for a Spring Library (Java 7).
 
 ## Install
 
-Install to local repository with `mvn clean install`.
+Install the archetype to your local Maven repository with `mvn clean install`.
 
 ## Usage
 
-Create projects from the archetype with the following command:
+Create projects from the archetype.
 
     mvn archetype:generate -DarchetypeGroupId=com.kytkemo
                            -DarchetypeArtifactId=spring-library
                            -DarchetypeVersion=1.1
-                           -DarchetypeRepository=local
                            -DgroupId=com.yourcompany
                            -DartifactId=ProjectName
                            -Dpackage=com.yourcompany.projectname
 
-## Developing a project
+## Developing a Project
 
 After creating a project from the archetype you can do the following tasks.
 
-### Run tests
+### Run Tests
 
 Run tests with `mvn test`.
 
