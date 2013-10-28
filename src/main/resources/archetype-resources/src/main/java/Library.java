@@ -4,6 +4,7 @@
 package ${package};
 
 import ${package}.configuration.SpringContextConfiguration;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
