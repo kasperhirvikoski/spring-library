@@ -1,6 +1,6 @@
 # spring-library
 
-Maven archetype for a Spring Library (Java 7).
+Maven archetype for a Spring Library (Java 7 + Spring 4.0.3.RELEASE).
 
 ## Install
 
