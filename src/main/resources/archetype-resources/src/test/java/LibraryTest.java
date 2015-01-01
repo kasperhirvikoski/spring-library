@@ -34,7 +34,7 @@ public class LibraryTest {
     public void tearDown() {}
 
     @Test
-    public void youShallPass() {
+    public void shouldPass() {
 
         assertTrue(true);
     }
