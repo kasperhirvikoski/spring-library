@@ -1,4 +1,5 @@
-# spring-library
+spring-library
+==============
 
 Maven archetype for a Spring Library (Java 7 + Spring 4.1.4.RELEASE).
 
