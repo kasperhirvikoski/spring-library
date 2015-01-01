@@ -3,6 +3,8 @@
 #set( $symbol_escape = '\' )
 package ${package};
 
+import ${package}.configuration.SpringContextConfiguration;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -12,13 +14,11 @@ import org.junit.runner.RunWith;
 
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(loader = AnnotationConfigContextLoader.class,
-                      value = "${package}.configuration.SpringContextConfiguration")
+@ContextConfiguration(classes = SpringContextConfiguration.class)
 public class LibraryTest {
 
     @BeforeClass
