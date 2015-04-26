@@ -1,7 +1,7 @@
 spring-library
 ==============
 
-Maven archetype for a Spring library (Java 7 + Spring 4.1.6.RELEASE).
+Maven archetype for a Spring library (Java 8 + Spring 4.1.6.RELEASE).
 
 ## Install
 
