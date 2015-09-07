@@ -8,8 +8,7 @@
 <module name='Checker'>
 
     <property name='basedir' value='${symbol_dollar}{basedir}' />
-    <property name='localeCountry' value='' />
-    <property name='localeLanguage' value='' />
+    <property name='localeLanguage' value='en' />
 
     <module name='SuppressWarningsFilter' />
 
@@ -58,11 +57,7 @@
         <module name='InterfaceIsType' />
         <module name='HideUtilityClassConstructor' />
         <module name='MutableException' />
-
-        <module name='ThrowsCount'>
-            <property name='max' value='4' />
-        </module>
-
+        <module name='ThrowsCount' />
         <module name='OneTopLevelClass' />
 
         <!-- Coding -->
@@ -136,6 +131,8 @@
         <module name='BooleanExpressionComplexity' />
 
         <!-- Miscellaneous -->
+
+        <module name='CommentsIndentation' />
 
         <module name='UncommentedMain'>
             <property name='excludedClasses' value='${symbol_escape}.Main${symbol_dollar}' />
