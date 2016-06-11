@@ -191,6 +191,7 @@
         <module name='EmptyLineSeparator'>
             <property name='allowNoEmptyLineBetweenFields' value='true' />
             <property name='allowMultipleEmptyLines' value='false' />
+            <property name='allowMultipleEmptyLinesInsideClassMembers' value='false' />
         </module>
 
         <module name='GenericWhitespace' />
