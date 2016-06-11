@@ -221,6 +221,8 @@
             <property name='tokens' value='DOT' />
         </module>
 
+        <module name='SingleSpaceSeparator' />
+
     </module>
 
 </module>
